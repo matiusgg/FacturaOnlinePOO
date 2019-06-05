@@ -1,0 +1,26 @@
+{
+    "name": "user/factura-online-poo",
+    "description": "Factura Online con POO",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "matiusgg",
+            "email": "newpowerexperience2016@gmail.com"
+        }
+    ],
+
+
+    "autoload": {
+
+        "psr-4": {
+
+            "models\\": "models/"
+        }
+    },
+
+    
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
